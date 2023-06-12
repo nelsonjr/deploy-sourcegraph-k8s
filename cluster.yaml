@@ -3320,7 +3320,7 @@ spec:
         envFrom:
         - configMapRef:
             name: sourcegraph-frontend-env
-        image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/frontend:5.0.4-try2
+        image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/frontend:5.0.4-try3
         livenessProbe:
           httpGet:
             path: /healthz

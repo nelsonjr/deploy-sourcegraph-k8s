@@ -23,7 +23,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: spec.nodeName
-        image: index.docker.io/sourcegraph/pod-tmp-gc:latest@sha256:5ebd7c84d4571d0efb2b04cadb0be702ae90c7edce5463a0fa2e3215f7b4b1e3
+        image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/pod-tmp-gc:5.0.4
         terminationMessagePolicy: FallbackToLogsOnError
         name: pod-tmp-gc
         resources:

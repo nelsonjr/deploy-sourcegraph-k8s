@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: embeddings
-          image: index.docker.io/sourcegraph/embeddings:5.0.4@sha256:4bff1c15e1ecf51d90a5f780312fc5da73148e862bef61e6593022801244124a
+          image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/embeddings:5.0.4
           env:
             - name: POD_NAME
               valueFrom:

@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: prometheus
-          image: index.docker.io/sourcegraph/prometheus:5.0.4@sha256:b217c261e70c3079d116eb19f2bd3cc0f5f41b5aeb1857438526ae893d41edc0
+          image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/prometheus:5.0.4
           terminationMessagePolicy: FallbackToLogsOnError
           env:
             - name: SG_NAMESPACE

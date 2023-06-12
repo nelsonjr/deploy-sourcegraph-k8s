@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: jaeger
-          image: index.docker.io/sourcegraph/jaeger-all-in-one:5.0.4@sha256:8753fdbc2ee10f13a2ba3a9657a5f0e48d8f8ffcc8b8e37fda847db93c6f4a91
+          image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/jaeger-all-in-one:5.0.4
           args: ["--memory.max-traces=20000"]
           ports:
             - containerPort: 5775

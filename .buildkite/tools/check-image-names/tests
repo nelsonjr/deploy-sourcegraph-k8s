@@ -1,2 +1,2 @@
 foo/test:asdfasdf
-index.docker.io/sourcegraph/foo:2323423@sha256:asdfasdfasdfasdf
+us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/foo:5.0.4

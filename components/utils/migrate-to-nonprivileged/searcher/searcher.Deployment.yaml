@@ -2,7 +2,7 @@
   path: /spec/template/spec/initContainers
   value:
     - name: transfer-cache
-      image: index.docker.io/sourcegraph/alpine-3.14:insiders
+      image: us-central1-docker.pkg.dev/nelsona-sandbox/nelsona-dev-images/alpine-3.14:5.0.4
       command:
         [
           "sh",
